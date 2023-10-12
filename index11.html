@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 11</title>
+    
+</head>
+<body>
+    <fieldset> <legend>Registro de usuarios</legend>
+    <!--name-->
+    <label for="Nombre"> Nombre:</label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="su nombre" required>
+
+    <br>
+    <!--genero-->
+    <p>genero:</p>
+<label for="gemasc">masculino</label>
+<input type="radio" name="sexo" id="gemasc" required>
+
+<label for="gefem">feminino</label>
+<input type="radio" name="sexo" id="gefem" required>
+
+<br>
+<!-- nasc-->
+<label for="nasc">Fecha de nascimiento:</label>
+<input type="date" name="nasc" id="nasc" required>
+<br>
+<!--email-->
+<label for="email">E-mail:</label>
+<input type="text" name="email" id="email" placeholder="su e-mail">
+<br> 
+<!--contraseña-->
+<label for="Contras">Contraseña:</label>
+<input type="password" name="Contras" id="Contras" placeholder="escribir su Contraseña">
+<br>
+<!--Número de asignaturas matriculadas-->
+<label for="asignaturas"> Número de asignaturas:</label>
+<input type="text" name="asignaturas"  id="asignaturas" maxlength="15" placeholder="1-15" required> 
+<!--Curso Matriculado-->
+<br>
+<p>Cursos:</p>
+    <select name="Cursos" >
+<option value="html">HTMl-5</option>
+<option value="CSS">css</option>
+<option value="js">java-script</option>
+<option value="lenguage">Ingles</option>
+    </select>
+    <br>
+   <p>condiciones y el registro:</p>
+<label for="condiciones">Acepto</label> 
+<input type="checkbox" name="condiciones" id="condiciones"><br>
+
+<input type="submit" value="enviar form">
+    </fieldset>
+</body>
+</html>
